@@ -69,11 +69,7 @@ body {
     }
 }
 
-#explore-section {
-    .img-fluid {
-        // border: #ec6f66 solid 1px;
-    }
-
+#explore-section, #share-section {
     h3 {
         color: #ec6f66;
     }
@@ -83,12 +79,11 @@ body {
         background: #ec6f66;
         padding: 4px;
         border-radius: 5px;
-        // border: #ec6f66 solid 5px;
         font-size: $icon-size;
     }
 }
 
-#create-head-section  {
+#create-head-section, #share-head-section  {
         background: $primary-color;
 }
 
@@ -102,7 +97,6 @@ body {
         background: #ec6f66;
         padding: 4px;
         border-radius: 5px;
-        // border: #ec6f66 solid 5px;
         font-size: $icon-size;
     }
 }
