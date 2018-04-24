@@ -1,6 +1,7 @@
 body {
   background: #494949;
-  color: #fff; }
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif; }
 
 #sign-up {
   background: #ec6f66; }
