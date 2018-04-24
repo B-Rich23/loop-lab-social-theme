@@ -87,3 +87,22 @@ body {
         font-size: $icon-size;
     }
 }
+
+#create-head-section  {
+        background: $primary-color;
+}
+
+
+#create-section {
+    h3 {
+        color: #ec6f66;
+    }
+    .fa {
+        color: #fff;
+        background: #ec6f66;
+        padding: 4px;
+        border-radius: 5px;
+        // border: #ec6f66 solid 5px;
+        font-size: $icon-size;
+    }
+}
