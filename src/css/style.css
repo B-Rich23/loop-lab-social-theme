@@ -1,9 +1,12 @@
 body {
-  background: #333;
+  background: #494949;
   color: #fff; }
 
+#sign-up {
+  background: #ec6f66; }
+
 .navbar {
-  border-bottom: #008ed6 3px solid;
+  border-bottom: #ec6f66 3px solid;
   opacity: 0.8; }
 
 #home-section {
@@ -23,8 +26,25 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #008ed6;
+    color: #ec6f66;
     background: #fff;
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; }
+
+#explore-head-section .display-4 {
+  color: #ec6f66; }
+
+#explore-head-section .py-5 a.btn.btn-outline-secondary {
+  border: #ec6f66 solid 1px;
+  color: #ec6f66; }
+
+#explore-section h3 {
+  color: #ec6f66; }
+
+#explore-section .fa {
+  color: #fff;
+  background: #ec6f66;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }

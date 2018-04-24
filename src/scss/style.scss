@@ -1,18 +1,31 @@
-$bg-color: #333;
+$bg-color: #494949;
+// $bg-color: #333;
 $font-color: #fff;
-$primary-color: #008ed6;
+$primary-color: #ec6f66;
+// $primary-color: #1EB8DE;
+// $primary-color: #26D3BF;
+// $primary-color: #008ed6;
 $dark-overlay: rgba(0,0,0,0.5);
-$font-size: 30px;
+$icon-size: 30px;
 
 body {
     background: $bg-color;
     color: $font-color;
 }
 
-.navbar {
-    border-bottom: $primary-color 3px solid;
-    opacity: 0.8;
+#sign-up {
+    background:  $primary-color;
 }
+
+.navbar {
+    border-bottom: #ec6f66 3px solid;
+    opacity: 0.8;
+    
+}
+
+//  .navbar-nav.ml-auto.color-me li a {
+//         color: $primary-color;
+//     }
 
 #home-section {
     background: url('../img/sunrise.jpg') no-repeat;
@@ -42,6 +55,35 @@ body {
         background: #fff;
         padding: 4px;
         border-radius: 5px;
-        font-size: $font-size;
+        font-size: $icon-size;
+    }
+}
+
+#explore-head-section {
+    .display-4 {
+        color: #ec6f66;
+    }
+    .py-5 a.btn.btn-outline-secondary {
+        border: #ec6f66 solid 1px;
+        color: #ec6f66;
+    }
+}
+
+#explore-section {
+    .img-fluid {
+        // border: #ec6f66 solid 1px;
+    }
+
+    h3 {
+        color: #ec6f66;
+    }
+
+    .fa {
+        color: #fff;
+        background: #ec6f66;
+        padding: 4px;
+        border-radius: 5px;
+        // border: #ec6f66 solid 5px;
+        font-size: $icon-size;
     }
 }
