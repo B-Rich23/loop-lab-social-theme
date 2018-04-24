@@ -51,11 +51,12 @@ body {
     }
 
     .fa {
-        color: $primary-color;
-        background: #fff;
+        color: #fff;
+        background: #ec6f66;
         padding: 4px;
         border-radius: 5px;
         font-size: $icon-size;
+        opacity: 0.8;
     }
 }
 
@@ -99,4 +100,16 @@ body {
         border-radius: 5px;
         font-size: $icon-size;
     }
+}
+
+#main-footer .py-4 button.btn {
+    background: $primary-color;
+    border: $primary-color solid 1px;
+    color: #fff;
+}
+
+#contactModal .modal-footer button.btn.btn-block {
+    background: $primary-color;
+    border: $primary-color solid 1px;
+    color: #fff;
 }

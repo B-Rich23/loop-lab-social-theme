@@ -26,11 +26,12 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #ec6f66;
-    background: #fff;
+    color: #fff;
+    background: #ec6f66;
     padding: 4px;
     border-radius: 5px;
-    font-size: 30px; }
+    font-size: 30px;
+    opacity: 0.8; }
 
 #explore-head-section .display-4 {
   color: #ec6f66; }
@@ -61,3 +62,13 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
+
+#main-footer .py-4 button.btn {
+  background: #ec6f66;
+  border: #ec6f66 solid 1px;
+  color: #fff; }
+
+#contactModal .modal-footer button.btn.btn-block {
+  background: #ec6f66;
+  border: #ec6f66 solid 1px;
+  color: #fff; }
