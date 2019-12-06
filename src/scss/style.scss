@@ -119,7 +119,9 @@ body {
 
 @media (max-width: 767px) {
     #home-section {
-
+        background-size: cover !important;
+        // background-attachment: fixed;
+        min-height: 700px;
         background-attachment: initial;
 
     }

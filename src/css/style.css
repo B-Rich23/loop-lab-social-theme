@@ -76,4 +76,6 @@ body {
 
 @media (max-width: 767px) {
   #home-section {
+    background-size: cover !important;
+    min-height: 700px;
     background-attachment: initial; } }
