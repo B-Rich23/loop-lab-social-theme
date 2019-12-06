@@ -74,7 +74,7 @@ body {
   border: #ec6f66 solid 1px;
   color: #fff; }
 
-@media (max-width: 767px) {
+@media (max-width: 824px) {
   #home-section {
     background-size: cover !important;
     min-height: 700px;
