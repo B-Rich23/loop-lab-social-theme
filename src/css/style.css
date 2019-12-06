@@ -73,3 +73,7 @@ body {
   background: #ec6f66;
   border: #ec6f66 solid 1px;
   color: #fff; }
+
+@media (max-width: 767px) {
+  #home-section {
+    background-attachment: initial; } }

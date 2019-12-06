@@ -21,7 +21,7 @@ body {
 .navbar {
     border-bottom: #ec6f66 3px solid;
     opacity: 0.8;
-    
+
 }
 
 //  .navbar-nav.ml-auto.color-me li a {
@@ -113,4 +113,14 @@ body {
     background: $primary-color;
     border: $primary-color solid 1px;
     color: #fff;
+}
+
+// Media Queries
+
+@media (max-width: 767px) {
+    #home-section {
+
+        background-attachment: initial;
+
+    }
 }
